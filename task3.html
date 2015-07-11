@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>trying out </title>
+     
+    <style>
+body{
+ background-image: url("einstein.jpg");
+background-position: right top;
+background: -webkit-radial-gradient(circle,white, rgb(255, 255, 255) , rgb(157, 230, 255)); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(circle,white, rgb(255, 255, 255), rgb(157, 230, 255)); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(circle,white, rgb(255, 255, 255), rgb(157, 230, 255)); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(circle,white, rgb(255, 255, 255) , rgb(157, 230, 255)); /* Standard syntax */
+} 
+ input[type=text],[type=password]{font-size:20px;
+                  position:relative;   
+                  left:100px; height:40px;width:250px;}
+
+input[type=submit]{font-size:20px;
+        padding:0.4em;
+         position:relative;
+        left:192px;height:60px; width:254px;
+    }
+#nam{font-size:20px;
+     position:relative;  
+     left:140px;height:40px; width:250px;}
+p{font-size:30px; font-style:italic;}
+    </style>
+ 
+</head>
+<body>
+<p id='in'>WELCOME TO THE ALL INDIA UNIFIED COUNCIL QUIZ CHAMPIONSHIP</p>
+<p id='o'>LOGIN OR REGISTER YOURSELF TO PARTICIPATE</p>
+<form action="quizpage.php" method="POST">
+ <br>      NAME:<input type='text' id='nam' name='name' placeholder='(format=cccccccc)' /></br>
+ <br>  USERNAME:<input type='text' id='na' name='username' placeholder='(format=ccc12345)' /></br>
+ <br>  PASSWORD:<input type='password' id='na' name='password' placeholder='(format=bb*#$123)' /></br>
+ <br>   <input type='submit' value='REGISTER/LOGIN' />
+</form>
+</html>
